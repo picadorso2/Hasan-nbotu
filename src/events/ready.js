@@ -3,5 +3,5 @@ module.exports = {
 	name: 'ready',
 	once: true,
 	execute(client) {
-  client.user.setActivity("Raven #2022")
+  client.user.setActivity("DEVELOPER BY PİCADORSO2")
 }};
