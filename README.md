@@ -17,7 +17,7 @@ Botunuzun Discord API'sine bağlanabilmesi için bir **bot token'ı** gereklidir
 module.exports = {
   "token": "Bot Tokeninizi buraya girmelisiniz ( config.json dosyasına gidin )"
 }
-// DEVELOPER BY PİCADOR_SO2
+
 ```
 
 🔒 **Önemli:** Token'ınızı kimseyle paylaşmayın! Token'ınız güvenliği tehlikeye atabilir.
