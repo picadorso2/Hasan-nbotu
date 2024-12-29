@@ -24,38 +24,12 @@ Botunuzun Discord API'sine bağlanabilmesi için bir **bot token'ı** gereklidir
 
 🔒 **Önemli:** Token'ınızı kimseyle paylaşmayın! Token'ınız güvenliği tehlikeye atabilir.
 
-## 2. Prefix Ayarı ⚙️
-Botunuzun komutlarını başlatmak için bir **prefix** kullanılır. Örneğin, `!kick` komutunu kullanmak için prefix `!` olmalıdır. `config.json` dosyasındaki `prefix` alanını istediğiniz gibi değiştirebilirsiniz.
 
-```json
-{
-  "prefix": "!"  // Komutlarınız için prefix seçin (örn. "!", "$" vb.)
-}
-```
-
-## 3. Moderatör Rolü Ayarı 👑
-Bot, sadece **moderasyon rolüne sahip kullanıcılar** tarafından yönetilmelidir. `config.json` dosyasındaki `modRole` kısmına, moderatör rolünün adını yazın.
-
-```json
-{
-  "modRole": "Moderator"  // Moderatör rolünün adını buraya yazın
-}
-```
-
-## 4. Log Kanalı Ayarı 📝
-Bot, gerçekleşen moderasyon işlemlerini (ban, kick, mute vb.) bir log kanalına kaydedecektir. `logChannel` alanına, logların gönderileceği kanalın adını yazın.
-
-```json
-{
-  "logChannel": "mod-logs"  // Log kanalının adını buraya yazın
-}
-```
-
-## 5. Botu Başlatma 🚀
+## 2. Botu Başlatma 🚀
 Tüm ayarları yaptıktan sonra, botunuzu başlatabilirsiniz. Aşağıdaki komut ile botu çalıştırabilirsiniz:
 
 ```bash
-node bot.js  // Botu başlatmak için bu komutu kullanın
+node index.js
 ```
 
 🎉 **Botunuz Başarıyla Çalışıyor!** Artık sunucunuzda moderasyon görevlerini rahatlıkla yerine getirebilir!
@@ -63,7 +37,7 @@ node bot.js  // Botu başlatmak için bu komutu kullanın
 ## Ekstra Özellikler 🌟
 Botunuza yeni özellikler eklemek için kodu özelleştirebilir veya yeni komutlar ekleyebilirsiniz. Eğer bir hata alırsanız, botunuzu debug ederek hatayı çözebilirsiniz.
 
-💬 **Yardım İçin:** Bot komutlarına `!help` yazarak detaylı bilgi alabilirsiniz.
+💬 **Yardım İçin:** Bot komutlarına `/yardım` yazarak detaylı bilgi alabilirsiniz.
 
 ## Geliştirici Bilgisi 👨‍💻
 
