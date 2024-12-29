@@ -11,15 +11,13 @@ Botunuzun Discord API'sine bağlanabilmesi için bir **bot token'ı** gereklidir
 2. Botunuz için bir uygulama oluşturun veya mevcut bir botu seçin.
 3. "Bot" sekmesine tıklayın ve "Token" bölümünden bot token'ınızı alın.
 
-**Token'ı `config.json` dosyasına eklemeyi unutmayın:**
+**Token'i `config.json` dosyasına eklemeyi unutmayın:**
 
 ```json
-{
-  "token": "BURAYA_TOKEN_IĞINIZI_YAZIN", // Bot token'ınızı buraya ekleyin.
-  "prefix": "!",                         // Komutlar için kullanacağınız prefix (örn. !kick)
-  "modRole": "Moderator",                // Moderatör rolü adı
-  "logChannel": "mod-logs"               // Logların gönderileceği kanal adı
+module.exports = {
+  "token": "Bot Tokeninizi buraya girmelisiniz ( config.json dosyasına gidin )"
 }
+// DEVELOPER BY PİCADOR_SO2
 ```
 
 🔒 **Önemli:** Token'ınızı kimseyle paylaşmayın! Token'ınız güvenliği tehlikeye atabilir.
